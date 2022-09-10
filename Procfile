@@ -1,3 +1,1 @@
-web: gunicorn dblogd.wsgi:application --log-file - --log-level debug
-python3 manage.py collectstatic --noinput
-manage.py migrate
+web: gunicorn dblogd.wsgi
